@@ -45,6 +45,3 @@ describe('boardMembers', function() {
     })
   })
 })
-
-
-// mocha.suite.suites[0].suites[0].tests[0]
