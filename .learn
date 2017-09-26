@@ -2,9 +2,15 @@ tags:
   - learn.co
   - flatiron school
   - javascript
+<<<<<<< HEAD
   - object oriented
   - object methods
   - lab
+=======
+  - methods
+  - lab
+  - object oriented
+>>>>>>> 803d6a13e97cf348505004a0e1f4de14b6a50e42
 languages:
   - javascript
 resources:
