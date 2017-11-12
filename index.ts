@@ -19,4 +19,3 @@ function BoardMember(name, homeState, training) {
             .homeState}, and I was trained in ${this.training}.`;
     };
 }
-//# sourceMappingURL=index.js.map
