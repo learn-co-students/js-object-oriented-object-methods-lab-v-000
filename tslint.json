@@ -1,0 +1,8 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "no-debugger": false,
+        "no-console": false,
+        "arrow-parens": false
+    }
+}
