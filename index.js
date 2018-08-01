@@ -19,3 +19,7 @@ function BoardMember(name, homeState, training){
     };
 
 }
+
+// The tests will specify whether to return or log. Big difference! Don't forget function() in method declaration. 
+// We assign each newly created object(this) an attribute of approve that points to a function. 
+// we are adding methods to the object(this)with the help of a constructor function. 
