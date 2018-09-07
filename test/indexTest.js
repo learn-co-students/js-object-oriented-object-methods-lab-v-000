@@ -10,7 +10,7 @@ describe('boardMembers', function() {
     })
     it('can create a BoardMember with a name, home state, and training', function() {
       expect(polishedBoardMember).to.be.an.instanceof(BoardMember)
-      expect(polishedBoardMember.name).to.equal("Mr. Polished")
+      expect(polishedBoardMember.nam).to.equal("Mr. Polished")
       expect(polishedBoardMember.homeState).to.equal("New York")
       expect(polishedBoardMember.training).to.equal("law")
     })
@@ -61,9 +61,8 @@ describe('boardMembers', function() {
     before(() => {
       polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
     })
-    it('returns "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>."', function() {
+    it('returns "Hi, my name is <nam>. I am from <homestate>, and I was trained in <training>."', function() {
       expect(polishedBoardMember.sayHi()).to.equal("Hi, my name is Mr. Polished. I am from New York, and I was trained in law.")
     })
   })
 })
-
