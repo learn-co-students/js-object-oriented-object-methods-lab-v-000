@@ -19,6 +19,6 @@ Add following methods to the class:
 
 + `releasePressStatement` — returns `You will see great things from Scuber.`
 
-+ `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
++ `sayHi` — returns `"Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/js-object-methods-lab'>Object Methods Lab</a> on Learn.co and start learning to code for free.</p>
